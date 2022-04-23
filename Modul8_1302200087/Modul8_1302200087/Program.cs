@@ -20,7 +20,7 @@ namespace Modul8_1302200087
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Movie>();
                 });
     }
 }
